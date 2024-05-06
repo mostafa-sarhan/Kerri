@@ -1,0 +1,474 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+:root{
+    --main-color:#e65f78;
+}
+.color-bnk{
+    color: var(--main-color);
+}
+/* Stat nav */
+.nav-link {
+    color: #333333;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: #333333;
+}
+.bg-nav {
+    background-color: #f8f9fa;
+}
+/* Start Home */
+#home {
+    background-image:url(../images/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#home .home-layer {
+    background-color:rgba(0, 0, 0, 0.7);
+}
+#home .home-content h1::after{
+    content: " ";
+    -webkit-animation: moving 2s alternate infinite;
+            animation: moving 2s alternate infinite;
+    
+}
+.font-home {
+    font-size: 65px;
+}
+#home .home-content button {
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+#home .home-content button:hover {
+    background-color: #fff;
+    color: #212121 !important;
+}
+#home .home-content p {
+    max-width: 500px;
+} 
+@-webkit-keyframes moving {
+    0% {
+        content: "|";
+    }
+    
+    3% {
+        content: "D|";
+    }
+    5% {
+        content: "De|";
+    }
+    7% {
+        content: "Dev|";
+    }
+    10% {
+        content: "Deve|";
+    }
+    13% {
+        content: "Devel|";
+    }
+    15% {
+        content: "Develo|";
+    }
+    17% {
+        content: "Develop|";
+    }
+    20% {
+        content: "Developm|";
+    }
+    24% {
+        content: "Developme|";
+    }
+    25% {
+        content: "Developmen|";
+    }
+    27% {
+        content: "Development|";
+    }
+    30% {
+        content: "Development|";
+    }
+    32% {
+        content: "Developmen|";
+    }
+    35% {
+        content: "Developme|";
+    }
+    37% {
+        content: "Develop|";
+    }
+    40% {
+        content: "Develo|";
+    }
+    42% {
+        content: "Devel|";
+    }
+    45% {
+        content: "Deve|";
+    }
+    47% {
+        content: "Dev|";
+    }
+    50% {
+        content: "De|";
+    }
+    52% {
+        content: "Des|";
+    }
+    55% {
+        content: "Desi|";
+    }
+    57% {
+        content: "Desig|";
+    }
+    60% {
+        content: "Design|";
+    }
+    62% {
+        content: "Designe|";
+    }
+    65% {
+        content: "Designer|";
+    }
+    67% {
+        content: "Designer|";
+    }
+    70% {
+        content: "Designe|";
+    }
+    72% {
+        content: "Design|";
+    }
+    75% {
+        content: "Desig|";
+    }
+    77% {
+        content: "Desi|";
+    }
+    80% {
+        content: "Des|";
+    }
+    82% {
+        content: "De|";
+    }
+    85% {
+        content: "Dev|";
+    }
+    87% {
+        content: "Deve|";
+    }
+    90% {
+        content: "Devel|";
+    }
+    92% {
+        content: "Develo|";
+    }
+    95% {
+        content: "Develop|";
+    }
+    97% {
+        content: "Develope|";
+    }
+    100% {
+        content: "Developer|";
+}
+} 
+@keyframes moving {
+    0% {
+        content: "|";
+    }
+    
+    3% {
+        content: "D|";
+    }
+    5% {
+        content: "De|";
+    }
+    7% {
+        content: "Dev|";
+    }
+    10% {
+        content: "Deve|";
+    }
+    13% {
+        content: "Devel|";
+    }
+    15% {
+        content: "Develo|";
+    }
+    17% {
+        content: "Develop|";
+    }
+    20% {
+        content: "Developm|";
+    }
+    24% {
+        content: "Developme|";
+    }
+    25% {
+        content: "Developmen|";
+    }
+    27% {
+        content: "Development|";
+    }
+    30% {
+        content: "Development|";
+    }
+    32% {
+        content: "Developmen|";
+    }
+    35% {
+        content: "Developme|";
+    }
+    37% {
+        content: "Develop|";
+    }
+    40% {
+        content: "Develo|";
+    }
+    42% {
+        content: "Devel|";
+    }
+    45% {
+        content: "Deve|";
+    }
+    47% {
+        content: "Dev|";
+    }
+    50% {
+        content: "De|";
+    }
+    52% {
+        content: "Des|";
+    }
+    55% {
+        content: "Desi|";
+    }
+    57% {
+        content: "Desig|";
+    }
+    60% {
+        content: "Design|";
+    }
+    62% {
+        content: "Designe|";
+    }
+    65% {
+        content: "Designer|";
+    }
+    67% {
+        content: "Designer|";
+    }
+    70% {
+        content: "Designe|";
+    }
+    72% {
+        content: "Design|";
+    }
+    75% {
+        content: "Desig|";
+    }
+    77% {
+        content: "Desi|";
+    }
+    80% {
+        content: "Des|";
+    }
+    82% {
+        content: "De|";
+    }
+    85% {
+        content: "Dev|";
+    }
+    87% {
+        content: "Deve|";
+    }
+    90% {
+        content: "Devel|";
+    }
+    92% {
+        content: "Develo|";
+    }
+    95% {
+        content: "Develop|";
+    }
+    97% {
+        content: "Develope|";
+    }
+    100% {
+        content: "Developer|";
+}
+}
+/* End Home */
+/* Start About */
+#about .container .about-icon{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ccc;
+    color: #212529;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+#about .container .about-icon:hover{
+    border-color: var(--main-color);
+}
+#about .container .about-icon:hover i{
+    color: var(--main-color);
+}
+/* End A bout */
+/* Start Clint */
+.bg-clint {
+    background-color: #f1f1f1;
+}
+.width-p{
+    max-width: 500px;
+}
+.svg-inline--fa {
+    display:block;
+    height: 1em;
+    overflow: visible;
+    /* vertical-align: -.125em; */
+}
+#clint .container .clint-info img{
+    width: 70px;
+}
+.carousel-indicators {
+    position: static;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: var(--main-color);
+    height: 6px;
+    width: 30px;
+    border-radius: 40%;
+}
+/* End clint */
+/* Start Portfolio */
+#portfolio .portfolio-info .over-lay {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#portfolio .portfolio-info .portfolio-img:hover .over-lay {
+    top: 0;
+}
+#portfolio .portfolio-info .portfolio-img img{
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#portfolio .portfolio-info .portfolio-img:hover img {
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+            transform: scale(1.5);
+}
+
+#portfolio .nav-link:hover{
+    --bs-nav-link-hover-color:none;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #333333;
+}
+.nav-pills .nav-link.active{
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 25px;
+}
+.bg-blog{
+    background-color: #F1F1F1;
+}
+.bg-box{
+    background-color: white;
+}
+/* Start Contact */
+.w-48 {
+    width: 48%;
+}
+.bg-contact-btn {
+    background-color: var(--main-color);
+}
+/* End contact */
+.animi {
+    position: absolute;
+    bottom: 50px;
+    width: 40px;
+    height: 70px;
+    border: 2px solid #fff;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    border-radius: 20px;
+    -webkit-animation-name: moveAnimi;
+            animation-name: moveAnimi;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+}
+.child {
+    width: 5px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+@-webkit-keyframes moveAnimi {
+    0% {
+        bottom: 100px;
+    }
+    
+    25% {
+        bottom: 50px;
+    }
+    50% {
+        bottom: 80px;
+    }
+    75% {
+        bottom: 50;
+    }
+    100% {
+        bottom: 60px;
+    }
+}
+@keyframes moveAnimi {
+    0% {
+        bottom: 100px;
+    }
+    
+    25% {
+        bottom: 50px;
+    }
+    50% {
+        bottom: 80px;
+    }
+    75% {
+        bottom: 50;
+    }
+    100% {
+        bottom: 60px;
+    }
+}
+.spinner {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    position: fixed;
+    top: 25%;
+    left: 0;
+    border-radius: 0 5px 5px 0;
+}
+.navbar-nav .nav-link.active {
+    color: var(--main-color);
+}
